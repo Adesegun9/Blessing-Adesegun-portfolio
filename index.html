@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blessing Adesegun | Business &amp; Data Analysis Portfolio</title>
+  <meta name="description" content="Portfolio of Blessing Adesegun: business analysis and data analysis projects, skills and case studies.">
+  <meta property="og:title" content="Blessing Adesegun | Business & Data Analysis Portfolio">
+  <meta property="og:description" content="Business analysis and data analysis projects, skills and case studies.">
+  <meta name="theme-color" content="#0f4c5c">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#home">Blessing Adesegun</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HOME: text is filled from js/data.js -->
+    <section id="home" class="hero">
+      <div class="wrap">
+        <p class="eyebrow" id="hero-eyebrow"></p>
+        <h1 id="hero-name"></h1>
+        <p class="headline" id="hero-headline"></p>
+        <p class="lead" id="hero-intro"></p>
+        <div class="btn-row">
+          <a class="btn primary" href="#projects">View my projects</a>
+          <a class="btn" href="#contact">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap narrow">
+        <h2>About me</h2>
+        <div id="about-text"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <p class="note" id="skills-note"></p>
+        <div id="skills-grid" class="grid three"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <p class="note" id="projects-note"></p>
+        <div id="projects-grid" class="grid two"></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section alt">
+      <div class="wrap">
+        <h2>Certifications</h2>
+        <ul id="cert-list" class="cert-list"></ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap narrow">
+        <h2>Contact</h2>
+        <p id="contact-intro"></p>
+        <ul id="contact-list" class="contact-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><p id="footer-text"></p></div></footer>
+  <noscript><p style="padding:1rem">Please enable JavaScript to view this portfolio.</p></noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
